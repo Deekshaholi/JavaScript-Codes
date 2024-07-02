@@ -1,4 +1,4 @@
-/* create a function
+//create a function
 function greeting() {
     console.log("Hello,nice to meet you!");
 }
@@ -6,18 +6,28 @@ function greeting() {
 // call the function
 greeting();
 
-console.log("outside the function");*/
+console.log("outside the function");
 
 
-/*function with a parameter called 'name'
-function greeting(name) {
+//function with a parameter called 'name'
+function greet(name) {
     console.log(`Hello ${name}`);
 }
 
 // pass argument to the function
-greeting("John");*/
+greet("John");
 
-// Output: Hello John
+
+
+
+
+
+
+
+
+
+
+
 
 /* function to find cube of a number
 function findCube(num) {
@@ -29,7 +39,7 @@ function findCube(num) {
 // call the function and store the result
 let Cube = findCube(3);
 
-console.log(`Cube: ${Cube}`);*/
+console.log(`Cube: ${Cube}`);
 
 
 function greet() {
@@ -44,4 +54,4 @@ greet();
 
 // try to access message variable
 // outside the greet() function
-console.log(`Global: ${message}`);
+console.log(`Global: ${message}`);*/

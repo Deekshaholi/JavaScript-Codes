@@ -1,4 +1,4 @@
-/*let score;
+let score;
 
 // convert string to number
 score = Number("5");
@@ -10,7 +10,7 @@ console.log(result, "-", typeof(result));
 
 // convert number to boolean
 result = Boolean(0);
-console.log(result, "-", typeof(result));*/
+console.log(result, "-", typeof(result));
 
 
 
