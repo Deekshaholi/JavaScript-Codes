@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Image Source Example</title>
+</head>
+<body>
+
+<img id="myImage" src="smiley.gif" alt="Smiley Face">
+
+<button id="changeImageButton">Change Image</button>
+
+<script>
+document.getElementById("changeImageButton").addEventListener('click', function() {
+    document.getElementById("myImage").src = "landscape.jpg";
+});
+</script>
+
+</body>
+</html>

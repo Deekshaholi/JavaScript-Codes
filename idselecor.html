@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>jQuery ID Selector Example</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("#test").hide();
+      });
+    });
+  </script>
+</head>
+<body>
+  <button>Hide the Test Element</button>
+  <p id="test">This is the test paragraph.</p>
+  <p>This is another paragraph.</p>
+</body>
+</html>

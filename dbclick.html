@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>jQuery Double Click Event Example</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $("p").dblclick(function(){
+        $(this).hide();
+      });
+    });
+  </script>
+</head>
+<body>
+  <p>Double-click this paragraph to hide it.</p>
+  <p>Double-click this paragraph to hide it.</p>
+  <p>Double-click this paragraph to hide it.</p>
+</body>
+</html>

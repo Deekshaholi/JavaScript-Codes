@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Example</title>
+</head>
+<body>
+    <h1 id="header">Hello, World!</h1>
+    <button id="changeTextButton">Change Text</button>
+
+    <script>
+        // Access the header element by its ID
+        const header = document.getElementById('header');
+        const button = document.getElementById('changeTextButton');
+
+        // Add an event listener to the button
+        button.addEventListener('click', function() {
+            // Change the inner HTML content of the header
+            header.innerHTML = 'Text Changed!';
+        });
+    </script>
+</body>
+</html>
+

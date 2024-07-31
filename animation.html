@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+<div id="box"></div>
+
+<script>
+    let box = document.getElementById("box");
+    box.style.transition = "left 2s";
+    box.style.position = "relative";
+    box.style.left = "200px";
+</script>
+
+</body>
+</html>

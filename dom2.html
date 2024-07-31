@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Example</title>
+    <style>
+        .highlight {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p class="highlight">This is a paragraph.</p>
+    <p class="highlight">This is another paragraph.</p>
+    <button id="changeColorButton">Change Color</button>
+
+    <script>
+        // Access the elements by their class name
+        const paragraphs = document.getElementsByClassName('highlight');
+        const button = document.getElementById('changeColorButton');
+
+        // Add an event listener to the button
+        button.addEventListener('click', function() {
+            // Change the color of all paragraphs with the class name 'highlight'
+            for (let i = 0; i < paragraphs.length; i++) {
+                paragraphs[i].style.color = 'blue';
+            }
+        });
+    </script>
+</body>
+</html>

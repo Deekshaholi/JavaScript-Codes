@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Example</title>
+</head>
+<body>
+    <ul id="myList">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li id="removeMe">Item to be removed</li>
+    </ul>
+    <button id="removeItemButton">Remove Item</button>
+
+    <script>
+        // Access the list and button elements
+        const list = document.getElementById('myList');
+        const removeMe = document.getElementById('removeMe');
+        const button = document.getElementById('removeItemButton');
+
+        // Add an event listener to the button
+        button.addEventListener('click', function() {
+            // Remove the specified item from the list
+            list.removeChild(removeMe);
+        });
+    </script>
+</body>
+</html>

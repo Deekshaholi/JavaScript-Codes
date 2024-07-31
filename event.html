@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+
+<button id="changeColorButton">Click me</button>
+<div id="box"></div>
+
+<script>
+    document.getElementById("changeColorButton").onclick = function() {
+        document.getElementById("box").style.backgroundColor = "blue";
+    }
+</script>
+
+</body>
+</html>

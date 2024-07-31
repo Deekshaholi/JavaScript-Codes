@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Elements Example</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Welcome to DOM Manipulation</h1>
+        <button id="changeTextButton">Change Text</button>
+        <p id="textElement">This is the original text.</p>
+    </div>
+
+    <script>
+        // JavaScript to interact with the DOM
+        document.getElementById('changeTextButton').addEventListener('click', function() {
+            document.getElementById('textElement').textContent = 'The text has been changed!';
+        });
+    </script>
+</body>
+</html>
